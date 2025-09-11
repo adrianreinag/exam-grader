@@ -1,0 +1,493 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - link "UCO Logo TFG Adrián Reina Gálvez" [ref=e6]:
+          - /url: /dashboard?demo=true
+          - img "UCO Logo" [ref=e7]
+          - generic [ref=e8]: TFG Adrián Reina Gálvez
+        - link "U" [ref=e10]:
+          - /url: /profile?demo=true
+          - generic [ref=e12] [cursor=pointer]: U
+    - main [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - heading "Mis Exámenes Creados" [level=1] [ref=e17]
+            - paragraph [ref=e18]: Aquí puedes gestionar todos los exámenes que has creado.
+          - button "Crear Examen" [ref=e19] [cursor=pointer]:
+            - img
+            - text: Crear Examen
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - paragraph [ref=e23]: Mostrando 50 exámenes
+            - button "Cargar más" [ref=e24] [cursor=pointer]
+          - table [ref=e26]:
+            - rowgroup [ref=e27]:
+              - row "Título Estado Preguntas Fecha Creación Acciones" [ref=e28]:
+                - cell "Título" [ref=e29]
+                - cell "Estado" [ref=e30]
+                - cell "Preguntas" [ref=e31]
+                - cell "Fecha Creación" [ref=e32]
+                - cell "Acciones" [ref=e33]
+            - rowgroup [ref=e34]:
+              - 'row "Demo: Conceptos de React Borrador 1 9/6/2025" [ref=e35] [cursor=pointer]':
+                - 'cell "Demo: Conceptos de React" [ref=e36] [cursor=pointer]'
+                - cell "Borrador" [ref=e37] [cursor=pointer]:
+                  - generic [ref=e38] [cursor=pointer]: Borrador
+                - cell "1" [ref=e40] [cursor=pointer]
+                - cell "9/6/2025" [ref=e41] [cursor=pointer]
+                - cell [ref=e42] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e43] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Historia de la Web Publicado 2 9/4/2025" [ref=e44] [cursor=pointer]':
+                - 'cell "Demo: Historia de la Web" [ref=e45] [cursor=pointer]'
+                - cell "Publicado" [ref=e46] [cursor=pointer]:
+                  - generic [ref=e47] [cursor=pointer]: Publicado
+                - cell "2" [ref=e49] [cursor=pointer]
+                - cell "9/4/2025" [ref=e50] [cursor=pointer]
+                - cell [ref=e51] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e52] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 3 Evaluado 3 9/4/2025" [ref=e53] [cursor=pointer]':
+                - 'cell "Demo: Examen 3" [ref=e54] [cursor=pointer]'
+                - cell "Evaluado" [ref=e55] [cursor=pointer]:
+                  - generic [ref=e56] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e58] [cursor=pointer]
+                - cell "9/4/2025" [ref=e59] [cursor=pointer]
+                - cell [ref=e60] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e61] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 4 Evaluado 3 9/3/2025" [ref=e62] [cursor=pointer]':
+                - 'cell "Demo: Examen 4" [ref=e63] [cursor=pointer]'
+                - cell "Evaluado" [ref=e64] [cursor=pointer]:
+                  - generic [ref=e65] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e67] [cursor=pointer]
+                - cell "9/3/2025" [ref=e68] [cursor=pointer]
+                - cell [ref=e69] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e70] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 5 Borrador 3 9/2/2025" [ref=e71] [cursor=pointer]':
+                - 'cell "Demo: Examen 5" [ref=e72] [cursor=pointer]'
+                - cell "Borrador" [ref=e73] [cursor=pointer]:
+                  - generic [ref=e74] [cursor=pointer]: Borrador
+                - cell "3" [ref=e76] [cursor=pointer]
+                - cell "9/2/2025" [ref=e77] [cursor=pointer]
+                - cell [ref=e78] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e79] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 6 Publicado 3 9/1/2025" [ref=e80] [cursor=pointer]':
+                - 'cell "Demo: Examen 6" [ref=e81] [cursor=pointer]'
+                - cell "Publicado" [ref=e82] [cursor=pointer]:
+                  - generic [ref=e83] [cursor=pointer]: Publicado
+                - cell "3" [ref=e85] [cursor=pointer]
+                - cell "9/1/2025" [ref=e86] [cursor=pointer]
+                - cell [ref=e87] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e88] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 7 Evaluado 3 8/31/2025" [ref=e89] [cursor=pointer]':
+                - 'cell "Demo: Examen 7" [ref=e90] [cursor=pointer]'
+                - cell "Evaluado" [ref=e91] [cursor=pointer]:
+                  - generic [ref=e92] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e94] [cursor=pointer]
+                - cell "8/31/2025" [ref=e95] [cursor=pointer]
+                - cell [ref=e96] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e97] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 8 Evaluado 3 8/30/2025" [ref=e98] [cursor=pointer]':
+                - 'cell "Demo: Examen 8" [ref=e99] [cursor=pointer]'
+                - cell "Evaluado" [ref=e100] [cursor=pointer]:
+                  - generic [ref=e101] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e103] [cursor=pointer]
+                - cell "8/30/2025" [ref=e104] [cursor=pointer]
+                - cell [ref=e105] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e106] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 9 Borrador 3 8/29/2025" [ref=e107] [cursor=pointer]':
+                - 'cell "Demo: Examen 9" [ref=e108] [cursor=pointer]'
+                - cell "Borrador" [ref=e109] [cursor=pointer]:
+                  - generic [ref=e110] [cursor=pointer]: Borrador
+                - cell "3" [ref=e112] [cursor=pointer]
+                - cell "8/29/2025" [ref=e113] [cursor=pointer]
+                - cell [ref=e114] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e115] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 10 Publicado 3 8/28/2025" [ref=e116] [cursor=pointer]':
+                - 'cell "Demo: Examen 10" [ref=e117] [cursor=pointer]'
+                - cell "Publicado" [ref=e118] [cursor=pointer]:
+                  - generic [ref=e119] [cursor=pointer]: Publicado
+                - cell "3" [ref=e121] [cursor=pointer]
+                - cell "8/28/2025" [ref=e122] [cursor=pointer]
+                - cell [ref=e123] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e124] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 11 Evaluado 3 8/27/2025" [ref=e125] [cursor=pointer]':
+                - 'cell "Demo: Examen 11" [ref=e126] [cursor=pointer]'
+                - cell "Evaluado" [ref=e127] [cursor=pointer]:
+                  - generic [ref=e128] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e130] [cursor=pointer]
+                - cell "8/27/2025" [ref=e131] [cursor=pointer]
+                - cell [ref=e132] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e133] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 12 Evaluado 3 8/26/2025" [ref=e134] [cursor=pointer]':
+                - 'cell "Demo: Examen 12" [ref=e135] [cursor=pointer]'
+                - cell "Evaluado" [ref=e136] [cursor=pointer]:
+                  - generic [ref=e137] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e139] [cursor=pointer]
+                - cell "8/26/2025" [ref=e140] [cursor=pointer]
+                - cell [ref=e141] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e142] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 13 Borrador 3 8/25/2025" [ref=e143] [cursor=pointer]':
+                - 'cell "Demo: Examen 13" [ref=e144] [cursor=pointer]'
+                - cell "Borrador" [ref=e145] [cursor=pointer]:
+                  - generic [ref=e146] [cursor=pointer]: Borrador
+                - cell "3" [ref=e148] [cursor=pointer]
+                - cell "8/25/2025" [ref=e149] [cursor=pointer]
+                - cell [ref=e150] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e151] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 14 Publicado 3 8/24/2025" [ref=e152] [cursor=pointer]':
+                - 'cell "Demo: Examen 14" [ref=e153] [cursor=pointer]'
+                - cell "Publicado" [ref=e154] [cursor=pointer]:
+                  - generic [ref=e155] [cursor=pointer]: Publicado
+                - cell "3" [ref=e157] [cursor=pointer]
+                - cell "8/24/2025" [ref=e158] [cursor=pointer]
+                - cell [ref=e159] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e160] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 15 Evaluado 3 8/23/2025" [ref=e161] [cursor=pointer]':
+                - 'cell "Demo: Examen 15" [ref=e162] [cursor=pointer]'
+                - cell "Evaluado" [ref=e163] [cursor=pointer]:
+                  - generic [ref=e164] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e166] [cursor=pointer]
+                - cell "8/23/2025" [ref=e167] [cursor=pointer]
+                - cell [ref=e168] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e169] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 16 Evaluado 3 8/22/2025" [ref=e170] [cursor=pointer]':
+                - 'cell "Demo: Examen 16" [ref=e171] [cursor=pointer]'
+                - cell "Evaluado" [ref=e172] [cursor=pointer]:
+                  - generic [ref=e173] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e175] [cursor=pointer]
+                - cell "8/22/2025" [ref=e176] [cursor=pointer]
+                - cell [ref=e177] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e178] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 17 Borrador 3 8/21/2025" [ref=e179] [cursor=pointer]':
+                - 'cell "Demo: Examen 17" [ref=e180] [cursor=pointer]'
+                - cell "Borrador" [ref=e181] [cursor=pointer]:
+                  - generic [ref=e182] [cursor=pointer]: Borrador
+                - cell "3" [ref=e184] [cursor=pointer]
+                - cell "8/21/2025" [ref=e185] [cursor=pointer]
+                - cell [ref=e186] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e187] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 18 Publicado 3 8/20/2025" [ref=e188] [cursor=pointer]':
+                - 'cell "Demo: Examen 18" [ref=e189] [cursor=pointer]'
+                - cell "Publicado" [ref=e190] [cursor=pointer]:
+                  - generic [ref=e191] [cursor=pointer]: Publicado
+                - cell "3" [ref=e193] [cursor=pointer]
+                - cell "8/20/2025" [ref=e194] [cursor=pointer]
+                - cell [ref=e195] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e196] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 19 Evaluado 3 8/19/2025" [ref=e197] [cursor=pointer]':
+                - 'cell "Demo: Examen 19" [ref=e198] [cursor=pointer]'
+                - cell "Evaluado" [ref=e199] [cursor=pointer]:
+                  - generic [ref=e200] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e202] [cursor=pointer]
+                - cell "8/19/2025" [ref=e203] [cursor=pointer]
+                - cell [ref=e204] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e205] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 20 Evaluado 3 8/18/2025" [ref=e206] [cursor=pointer]':
+                - 'cell "Demo: Examen 20" [ref=e207] [cursor=pointer]'
+                - cell "Evaluado" [ref=e208] [cursor=pointer]:
+                  - generic [ref=e209] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e211] [cursor=pointer]
+                - cell "8/18/2025" [ref=e212] [cursor=pointer]
+                - cell [ref=e213] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e214] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 21 Borrador 3 8/17/2025" [ref=e215] [cursor=pointer]':
+                - 'cell "Demo: Examen 21" [ref=e216] [cursor=pointer]'
+                - cell "Borrador" [ref=e217] [cursor=pointer]:
+                  - generic [ref=e218] [cursor=pointer]: Borrador
+                - cell "3" [ref=e220] [cursor=pointer]
+                - cell "8/17/2025" [ref=e221] [cursor=pointer]
+                - cell [ref=e222] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e223] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 22 Publicado 3 8/16/2025" [ref=e224] [cursor=pointer]':
+                - 'cell "Demo: Examen 22" [ref=e225] [cursor=pointer]'
+                - cell "Publicado" [ref=e226] [cursor=pointer]:
+                  - generic [ref=e227] [cursor=pointer]: Publicado
+                - cell "3" [ref=e229] [cursor=pointer]
+                - cell "8/16/2025" [ref=e230] [cursor=pointer]
+                - cell [ref=e231] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e232] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 23 Evaluado 3 8/15/2025" [ref=e233] [cursor=pointer]':
+                - 'cell "Demo: Examen 23" [ref=e234] [cursor=pointer]'
+                - cell "Evaluado" [ref=e235] [cursor=pointer]:
+                  - generic [ref=e236] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e238] [cursor=pointer]
+                - cell "8/15/2025" [ref=e239] [cursor=pointer]
+                - cell [ref=e240] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e241] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 24 Evaluado 3 8/14/2025" [ref=e242] [cursor=pointer]':
+                - 'cell "Demo: Examen 24" [ref=e243] [cursor=pointer]'
+                - cell "Evaluado" [ref=e244] [cursor=pointer]:
+                  - generic [ref=e245] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e247] [cursor=pointer]
+                - cell "8/14/2025" [ref=e248] [cursor=pointer]
+                - cell [ref=e249] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e250] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 25 Borrador 3 8/13/2025" [ref=e251] [cursor=pointer]':
+                - 'cell "Demo: Examen 25" [ref=e252] [cursor=pointer]'
+                - cell "Borrador" [ref=e253] [cursor=pointer]:
+                  - generic [ref=e254] [cursor=pointer]: Borrador
+                - cell "3" [ref=e256] [cursor=pointer]
+                - cell "8/13/2025" [ref=e257] [cursor=pointer]
+                - cell [ref=e258] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e259] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 26 Publicado 3 8/12/2025" [ref=e260] [cursor=pointer]':
+                - 'cell "Demo: Examen 26" [ref=e261] [cursor=pointer]'
+                - cell "Publicado" [ref=e262] [cursor=pointer]:
+                  - generic [ref=e263] [cursor=pointer]: Publicado
+                - cell "3" [ref=e265] [cursor=pointer]
+                - cell "8/12/2025" [ref=e266] [cursor=pointer]
+                - cell [ref=e267] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e268] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 27 Evaluado 3 8/11/2025" [ref=e269] [cursor=pointer]':
+                - 'cell "Demo: Examen 27" [ref=e270] [cursor=pointer]'
+                - cell "Evaluado" [ref=e271] [cursor=pointer]:
+                  - generic [ref=e272] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e274] [cursor=pointer]
+                - cell "8/11/2025" [ref=e275] [cursor=pointer]
+                - cell [ref=e276] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e277] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 28 Evaluado 3 8/10/2025" [ref=e278] [cursor=pointer]':
+                - 'cell "Demo: Examen 28" [ref=e279] [cursor=pointer]'
+                - cell "Evaluado" [ref=e280] [cursor=pointer]:
+                  - generic [ref=e281] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e283] [cursor=pointer]
+                - cell "8/10/2025" [ref=e284] [cursor=pointer]
+                - cell [ref=e285] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e286] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 29 Borrador 3 8/9/2025" [ref=e287] [cursor=pointer]':
+                - 'cell "Demo: Examen 29" [ref=e288] [cursor=pointer]'
+                - cell "Borrador" [ref=e289] [cursor=pointer]:
+                  - generic [ref=e290] [cursor=pointer]: Borrador
+                - cell "3" [ref=e292] [cursor=pointer]
+                - cell "8/9/2025" [ref=e293] [cursor=pointer]
+                - cell [ref=e294] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e295] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 30 Publicado 3 8/8/2025" [ref=e296] [cursor=pointer]':
+                - 'cell "Demo: Examen 30" [ref=e297] [cursor=pointer]'
+                - cell "Publicado" [ref=e298] [cursor=pointer]:
+                  - generic [ref=e299] [cursor=pointer]: Publicado
+                - cell "3" [ref=e301] [cursor=pointer]
+                - cell "8/8/2025" [ref=e302] [cursor=pointer]
+                - cell [ref=e303] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e304] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 31 Evaluado 3 8/7/2025" [ref=e305] [cursor=pointer]':
+                - 'cell "Demo: Examen 31" [ref=e306] [cursor=pointer]'
+                - cell "Evaluado" [ref=e307] [cursor=pointer]:
+                  - generic [ref=e308] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e310] [cursor=pointer]
+                - cell "8/7/2025" [ref=e311] [cursor=pointer]
+                - cell [ref=e312] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e313] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 32 Evaluado 3 8/6/2025" [ref=e314] [cursor=pointer]':
+                - 'cell "Demo: Examen 32" [ref=e315] [cursor=pointer]'
+                - cell "Evaluado" [ref=e316] [cursor=pointer]:
+                  - generic [ref=e317] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e319] [cursor=pointer]
+                - cell "8/6/2025" [ref=e320] [cursor=pointer]
+                - cell [ref=e321] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e322] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 33 Borrador 3 8/5/2025" [ref=e323] [cursor=pointer]':
+                - 'cell "Demo: Examen 33" [ref=e324] [cursor=pointer]'
+                - cell "Borrador" [ref=e325] [cursor=pointer]:
+                  - generic [ref=e326] [cursor=pointer]: Borrador
+                - cell "3" [ref=e328] [cursor=pointer]
+                - cell "8/5/2025" [ref=e329] [cursor=pointer]
+                - cell [ref=e330] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e331] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 34 Publicado 3 8/4/2025" [ref=e332] [cursor=pointer]':
+                - 'cell "Demo: Examen 34" [ref=e333] [cursor=pointer]'
+                - cell "Publicado" [ref=e334] [cursor=pointer]:
+                  - generic [ref=e335] [cursor=pointer]: Publicado
+                - cell "3" [ref=e337] [cursor=pointer]
+                - cell "8/4/2025" [ref=e338] [cursor=pointer]
+                - cell [ref=e339] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e340] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 35 Evaluado 3 8/3/2025" [ref=e341] [cursor=pointer]':
+                - 'cell "Demo: Examen 35" [ref=e342] [cursor=pointer]'
+                - cell "Evaluado" [ref=e343] [cursor=pointer]:
+                  - generic [ref=e344] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e346] [cursor=pointer]
+                - cell "8/3/2025" [ref=e347] [cursor=pointer]
+                - cell [ref=e348] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e349] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 36 Evaluado 3 8/2/2025" [ref=e350] [cursor=pointer]':
+                - 'cell "Demo: Examen 36" [ref=e351] [cursor=pointer]'
+                - cell "Evaluado" [ref=e352] [cursor=pointer]:
+                  - generic [ref=e353] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e355] [cursor=pointer]
+                - cell "8/2/2025" [ref=e356] [cursor=pointer]
+                - cell [ref=e357] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e358] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 37 Borrador 3 8/1/2025" [ref=e359] [cursor=pointer]':
+                - 'cell "Demo: Examen 37" [ref=e360] [cursor=pointer]'
+                - cell "Borrador" [ref=e361] [cursor=pointer]:
+                  - generic [ref=e362] [cursor=pointer]: Borrador
+                - cell "3" [ref=e364] [cursor=pointer]
+                - cell "8/1/2025" [ref=e365] [cursor=pointer]
+                - cell [ref=e366] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e367] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 38 Publicado 3 7/31/2025" [ref=e368] [cursor=pointer]':
+                - 'cell "Demo: Examen 38" [ref=e369] [cursor=pointer]'
+                - cell "Publicado" [ref=e370] [cursor=pointer]:
+                  - generic [ref=e371] [cursor=pointer]: Publicado
+                - cell "3" [ref=e373] [cursor=pointer]
+                - cell "7/31/2025" [ref=e374] [cursor=pointer]
+                - cell [ref=e375] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e376] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 39 Evaluado 3 7/30/2025" [ref=e377] [cursor=pointer]':
+                - 'cell "Demo: Examen 39" [ref=e378] [cursor=pointer]'
+                - cell "Evaluado" [ref=e379] [cursor=pointer]:
+                  - generic [ref=e380] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e382] [cursor=pointer]
+                - cell "7/30/2025" [ref=e383] [cursor=pointer]
+                - cell [ref=e384] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e385] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 40 Evaluado 3 7/29/2025" [ref=e386] [cursor=pointer]':
+                - 'cell "Demo: Examen 40" [ref=e387] [cursor=pointer]'
+                - cell "Evaluado" [ref=e388] [cursor=pointer]:
+                  - generic [ref=e389] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e391] [cursor=pointer]
+                - cell "7/29/2025" [ref=e392] [cursor=pointer]
+                - cell [ref=e393] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e394] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 41 Borrador 3 7/28/2025" [ref=e395] [cursor=pointer]':
+                - 'cell "Demo: Examen 41" [ref=e396] [cursor=pointer]'
+                - cell "Borrador" [ref=e397] [cursor=pointer]:
+                  - generic [ref=e398] [cursor=pointer]: Borrador
+                - cell "3" [ref=e400] [cursor=pointer]
+                - cell "7/28/2025" [ref=e401] [cursor=pointer]
+                - cell [ref=e402] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e403] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 42 Publicado 3 7/27/2025" [ref=e404] [cursor=pointer]':
+                - 'cell "Demo: Examen 42" [ref=e405] [cursor=pointer]'
+                - cell "Publicado" [ref=e406] [cursor=pointer]:
+                  - generic [ref=e407] [cursor=pointer]: Publicado
+                - cell "3" [ref=e409] [cursor=pointer]
+                - cell "7/27/2025" [ref=e410] [cursor=pointer]
+                - cell [ref=e411] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e412] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 43 Evaluado 3 7/26/2025" [ref=e413] [cursor=pointer]':
+                - 'cell "Demo: Examen 43" [ref=e414] [cursor=pointer]'
+                - cell "Evaluado" [ref=e415] [cursor=pointer]:
+                  - generic [ref=e416] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e418] [cursor=pointer]
+                - cell "7/26/2025" [ref=e419] [cursor=pointer]
+                - cell [ref=e420] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e421] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 44 Evaluado 3 7/25/2025" [ref=e422] [cursor=pointer]':
+                - 'cell "Demo: Examen 44" [ref=e423] [cursor=pointer]'
+                - cell "Evaluado" [ref=e424] [cursor=pointer]:
+                  - generic [ref=e425] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e427] [cursor=pointer]
+                - cell "7/25/2025" [ref=e428] [cursor=pointer]
+                - cell [ref=e429] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e430] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 45 Borrador 3 7/24/2025" [ref=e431] [cursor=pointer]':
+                - 'cell "Demo: Examen 45" [ref=e432] [cursor=pointer]'
+                - cell "Borrador" [ref=e433] [cursor=pointer]:
+                  - generic [ref=e434] [cursor=pointer]: Borrador
+                - cell "3" [ref=e436] [cursor=pointer]
+                - cell "7/24/2025" [ref=e437] [cursor=pointer]
+                - cell [ref=e438] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e439] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 46 Publicado 3 7/23/2025" [ref=e440] [cursor=pointer]':
+                - 'cell "Demo: Examen 46" [ref=e441] [cursor=pointer]'
+                - cell "Publicado" [ref=e442] [cursor=pointer]:
+                  - generic [ref=e443] [cursor=pointer]: Publicado
+                - cell "3" [ref=e445] [cursor=pointer]
+                - cell "7/23/2025" [ref=e446] [cursor=pointer]
+                - cell [ref=e447] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e448] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 47 Evaluado 3 7/22/2025" [ref=e449] [cursor=pointer]':
+                - 'cell "Demo: Examen 47" [ref=e450] [cursor=pointer]'
+                - cell "Evaluado" [ref=e451] [cursor=pointer]:
+                  - generic [ref=e452] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e454] [cursor=pointer]
+                - cell "7/22/2025" [ref=e455] [cursor=pointer]
+                - cell [ref=e456] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e457] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 48 Evaluado 3 7/21/2025" [ref=e458] [cursor=pointer]':
+                - 'cell "Demo: Examen 48" [ref=e459] [cursor=pointer]'
+                - cell "Evaluado" [ref=e460] [cursor=pointer]:
+                  - generic [ref=e461] [cursor=pointer]: Evaluado
+                - cell "3" [ref=e463] [cursor=pointer]
+                - cell "7/21/2025" [ref=e464] [cursor=pointer]
+                - cell [ref=e465] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e466] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 49 Borrador 3 7/20/2025" [ref=e467] [cursor=pointer]':
+                - 'cell "Demo: Examen 49" [ref=e468] [cursor=pointer]'
+                - cell "Borrador" [ref=e469] [cursor=pointer]:
+                  - generic [ref=e470] [cursor=pointer]: Borrador
+                - cell "3" [ref=e472] [cursor=pointer]
+                - cell "7/20/2025" [ref=e473] [cursor=pointer]
+                - cell [ref=e474] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e475] [cursor=pointer]:
+                    - img
+              - 'row "Demo: Examen 50 Publicado 3 7/19/2025" [ref=e476] [cursor=pointer]':
+                - 'cell "Demo: Examen 50" [ref=e477] [cursor=pointer]'
+                - cell "Publicado" [ref=e478] [cursor=pointer]:
+                  - generic [ref=e479] [cursor=pointer]: Publicado
+                - cell "3" [ref=e481] [cursor=pointer]
+                - cell "7/19/2025" [ref=e482] [cursor=pointer]
+                - cell [ref=e483] [cursor=pointer]:
+                  - button "Eliminar examen" [ref=e484] [cursor=pointer]:
+                    - img
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e490] [cursor=pointer]:
+    - img [ref=e491] [cursor=pointer]
+  - alert [ref=e496]
+  - iframe [ref=e497]:
+    
+```

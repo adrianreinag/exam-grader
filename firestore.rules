@@ -1,0 +1,76 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(examId) {
+      return isSignedIn() && get(/databases/$(database)/documents/exams/$(examId)).data.ownerUid == request.auth.uid;
+    }
+
+    function isDraft(examId) {
+      return get(/databases/$(database)/documents/exams/$(examId)).data.state == 'DRAFT';
+    }
+    
+    function isPublished(examId) {
+      return get(/databases/$(database)/documents/exams/$(examId)).data.state == 'PUBLISHED';
+    }
+
+    match /exams/{examId} {
+      allow read: if isOwner(examId);
+      allow create: if isSignedIn();
+      allow update: if isOwner(examId) && isDraft(examId);
+      allow delete: if isOwner(examId) && isDraft(examId);
+
+      match /questions/{questionId} {
+        allow read: if isOwner(examId);
+        allow write: if isOwner(examId) && isDraft(examId);
+      }
+
+      match /submissions/{submissionId} {
+        allow read: if isSignedIn();
+        allow create: if isSignedIn() && isPublished(examId);
+        allow update, delete: if isOwner(examId);
+        
+        match /answers/{answerId} {
+          allow read: if isSignedIn();
+          allow write: if false;
+        }
+
+        match /grade/{gradeDoc=**} {
+          allow read: if isSignedIn();
+          allow write: if isOwner(examId);
+        }
+
+        match /comparisonGrades/{comparisonDoc=**} {
+            allow read: if isOwner(examId);
+            allow write: if false;
+        }
+      }
+    }
+    
+    match /publicLinks/{token} {
+      allow read, write: if false;
+    }
+    
+    match /operations/{opId} {
+      allow read, write: if isSignedIn();
+    }
+
+    match /gradingJobs/{jobId} {
+      allow get, update: if isSignedIn() && get(path).data.ownerUid == request.auth.uid;
+      allow list: if isSignedIn(); // La consulta ya filtra por ownerUid, por lo que esto es seguro.
+      allow create: if isSignedIn() && request.resource.data.ownerUid == request.auth.uid;
+    }
+
+    // Añadimos una regla similar para csvUploadJobs, ya que la usaremos de la misma manera
+    match /csvUploadJobs/{jobId} {
+      allow get, update: if isSignedIn() && get(path).data.ownerUid == request.auth.uid;
+      allow list: if isSignedIn();
+      allow create: if isSignedIn() && request.resource.data.ownerUid == request.auth.uid;
+    }
+  }
+}
